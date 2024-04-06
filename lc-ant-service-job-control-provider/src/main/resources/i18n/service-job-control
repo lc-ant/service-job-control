@@ -1,0 +1,2 @@
+wrong service authentication=you must be authenticated as service {{1}} to declare yourself as a job processor for this service
+job {} not found=job {{1}} not found

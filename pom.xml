@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>net.lecousin.ant</groupId>
+		<artifactId>lc-ant-spring-boot-parent-pom</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>net.lecousin.ant.service</groupId>
+	<artifactId>lc-ant-service-job-control-parent-pom</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<properties>
+		<lc-ant-core-spring-boot.version>0.0.1-SNAPSHOT</lc-ant-core-spring-boot.version>
+	</properties>
+
+	<modules>
+		<module>lc-ant-service-job-control</module>
+		<module>lc-ant-service-job-control-provider</module>
+		<module>lc-ant-service-job-control-client</module>
+	</modules>
+</project>
